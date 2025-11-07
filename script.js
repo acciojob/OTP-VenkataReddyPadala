@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const inputs = document.querySelectorAll(".code");
+let inputs = document.querySelectorAll(".code");
 
 inputs.forEach((input, index) => {
   input.addEventListener("input", () => {
