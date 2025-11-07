@@ -1,4 +1,5 @@
 //your JS code here. If required.
+(() => {
 let inputs = document.querySelectorAll(".code");
 
 inputs.forEach((input, index) => {
@@ -18,4 +19,4 @@ inputs.forEach((input, index) => {
       }
     }
   });
-});
+});})()
